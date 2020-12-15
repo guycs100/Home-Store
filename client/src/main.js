@@ -3,9 +3,10 @@ import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify';
 import '@babel/polyfill'
+import Api from './services/Api';
 
 Vue.config.productionTip = false
-
+Vue.prototype.$Api = Api;
 new Vue({
   router,
   vuetify,
