@@ -10,7 +10,7 @@ const sendEmail = async (mail, res) => {
         port: 25,//465
         auth: {
             user: 'elik56a@gmail.com',
-            pass: 'ELIeli641!',
+            pass: '********',
         },
         tls: {
             rejectUnauthorized: false
